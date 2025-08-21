@@ -1,8 +1,9 @@
 {
   "name": "hamed-s-theme",
-  "displayName": "Hamed's Theme",
+  "displayName": "5+7 Theme",
   "description": "just see what heppens",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "57",
   "engines": {
     "vscode": "^1.102.0"
   },
@@ -17,5 +18,10 @@
         "path": "./themes/Hamed-color-theme.json"
       }
     ]
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/hamedagule/5-7"
   }
+  
 }
