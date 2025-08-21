@@ -2,7 +2,7 @@
   "name": "hamed-s-theme",
   "displayName": "5+7 Theme",
   "description": "just see what heppens",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "57",
   "engines": {
     "vscode": "^1.102.0"
