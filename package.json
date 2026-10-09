@@ -1,0 +1,31 @@
+{
+  "name": "hamed-s-theme",
+  "displayName": "5+7 Theme",
+  "description": "just see what heppens",
+  "version": "0.0.6",
+  "publisher": "57",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "5+7 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hamed-color-theme.json"
+      },
+      {
+        "label": "5+7 Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hamed-Plus-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamedagule/5-7"
+  }
+}
