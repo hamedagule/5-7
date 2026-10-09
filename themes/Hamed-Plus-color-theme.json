@@ -1,7 +1,7 @@
 {
 	"name": "5+7",
 	"colors": {
-		"editor.background": "#302d38",
+		"editor.background": "#2c2a32",
 		"editor.foreground": "#ffeeee",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
@@ -47,7 +47,7 @@
 		"menu.selectionForeground":"#ffffff",
 		"menu.selectionBackground":"#6a568973",
 		"menu.foreground":"#eeeeee",
-		"menu.background":"#302d38",
+		"menu.background":"#2c2a32",
 
      	"activityBar.foreground": "#b1afff",
     	"activityBar.inactiveForeground": "#c2c2c2",
@@ -62,27 +62,35 @@
 
 
 		"breadcrumb.foreground":"#b4b1d4cc",
-		"breadcrumb.background":"#302d38",
+		"breadcrumb.background":"#2c2a32",
 
      "editorLineNumber.foreground":"#818181",
      "editorLineNumber.activeForeground":"#dfdfdf",
      "editorLineNumber.dimmedForeground":"#ff0000",
      
      "editor.lineHighlightBackground":"#ffffff0f",
-     "editorGutter.background":"#302d38",
+     "editorGutter.background":"#2c2a32",
 
 
 		
 	},
 	"semanticTokenColors": {
-    "class": "#c58fe6",
-    "field": "#FFB3B3",
-	"event": "#ece170",
-	"delegate":"#ece170",
-	"property":"#91cd3c",
-	"parameter":"#FFB3B3",
-	"string":"#d35c4f",
-	"struct":"#a6e9bc",
+    "class": "#c891eb",
+	"method": "#8caff9",
+    "field": "#efb0b0",
+	"variable": "#efb0b0",
+	"parameter":"#efb0b0",
+	"event": "#d1c868",
+	"delegate":"#d1c868",
+	"property":"#65e3c7",
+	"string":"#85cd7a",
+	//"struct":"#a6e9bc",
+	//"keyword": "#d2d2d2",
+	"punctuation": "#d2d2d2",
+	"operatorOverloaded": "#d2d2d2",
+	"operator": "#d2d2d2",
+	"number": "#ff9162",
+	"namespace": "#bbfff8"
 
 
   },
@@ -118,16 +126,7 @@
 				"foreground": "#FF5370"
 			}
 		},
-		{
-			"name": "Keyword, Storage",
-			"scope": [
-				"storage.type",
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#E2E2E2"
-			}
-		},
+
 
 
 
@@ -183,8 +182,6 @@
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#F78C6C"
@@ -718,16 +715,8 @@
 				"foreground": "#ffb3b3"
 			}
 		},
-		{
-		"name": "my_variable 'transform' ",
-		"scope": [
-			"keyword.other.using.cs"
-		],
-		"settings": {
-			"foreground": "#afafaf",
-		}
-		}
-,
+
+
 		{
 		"name": "my_variable 'transform' ",
 		"scope": [
@@ -739,36 +728,9 @@
 		},
 		
 
-		{
-		"name": "my_variable 'transform' ",
-		"scope": [
-			"keyword.operator.arithmetic.cs"
-		],
-		"settings": {
-			"foreground": "#e2e2e2",
-		}
-		},
 
 
-		{
-		"name": "my_variable 'transform' ",
-		"scope": [
-			"keyword.operator.assignment.cs"
-		],
-		"settings": {
-			"foreground": "#e2e2e2",
-		}
-		},
 
-		{
-		"name": "my_variable 'transform' ",
-		"scope": [
-			"keyword.operator.assignment.compound.cs"
-		],
-		"settings": {
-			"foreground": "#e2e2e2",
-		}
-		},
 
 		{
 			"name": "Operator, Misc",
@@ -782,72 +744,53 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other",
+				"keyword.type",
+				"storage.type.cs",
+				"entity.name.type.struct",
+				"keyword.operator",
+				"keyword.control.conditional",
+				"keyword.control.flow",
+				"keyword.control.loop",
+				"storage.type",
+				"storage.modifier",
+
 			],
 			"settings": {
-				"foreground": "#e2e2e2"
+				"foreground": "#d2d2d2"
 			}
 		},
 
 		{
 		"name": "my_variable 'transform' ",
 		"scope": [
-			"keyword.operator.comparison.cs"
+			"storage.modifier.override"
 		],
 		"settings": {
-			"foreground": "#e2e2e2",
+			"foreground": "#efac1c",
 		}
 		},
 
 		
-		{
-		"name": "my_variable 'transform' ",
-		"scope": [
-			"keyword.operator.logical.cs"
-		],
-		"settings": {
-			"foreground": "#e2e2e2",
-		}
-		},
 
 
 		{
-		"name": "my_variable 'transform' ",
-		"scope": [
-			"storage.type.cs"
-		],
-		"settings": {
-			"foreground": "#e2e2e2",
-		}
+			"name": "Class, Support",
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "#83ffda"
+			}
 		},
 
-		// {
-		// 	"name": "Class, Support",
-		// 	"scope": [
-		// 		"entity.name",
-		// 		"support.type",
-		// 		"support.class",
-		// 		"support.other.namespace.use.php",
-		// 		"meta.use.php",
-		// 		"support.other.namespace.php",
-		// 		"markup.changed.git_gutter",
-		// 		"support.type.sys-types"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#83ffda"
-		// 	}
-		// },
-
-		{
-		"name": "my_variable 'transform' ",
-		"scope": [
-			"keyword.other.class.cs"
-		],
-		"settings": {
-			"foreground": "#fFB3B3",
-		}
-		},
 
 		{
 		"name": "my_variable parameter ",
@@ -857,18 +800,6 @@
 		"settings": {
 			"foreground": "#ffb3b3",
 		}
-		},
-
-
-				{
-		"name": "my_variable parameter ",
-		"scope": [
-			"keyword.operator.relational.cs"
-		],
-		"settings": {
-			"foreground": "#e2e2e2",
-		}
-		
 		},
 
 		{
