@@ -76,13 +76,13 @@
 	},
 	"semanticTokenColors": {
     "class": "#c891eb",
-	"method": "#73a0ff",
-    "field": "#dea3a3",
-	"variable": "#efb0b0",
-	"parameter":"#a3c0ff",
+	"method": "#88aeff",
+    "field": "#ddafaf",
+	"variable": "#ddafaf",
+	"parameter":"#ea6767",
 	"event": "#d1c868",
 	"delegate":"#d1c868",
-	"property":"#65e3c7",
+	"property":"#56f3d1",
 	"string":"#85cd7a",
 	//"struct":"#a6e9bc",
 	//"keyword": "#d2d2d2",
@@ -91,8 +91,8 @@
 	"operator": "#d2d2d2",
 	"number": "#ff9162",
 	"namespace": "#bbfff8",
-	"enum":"#48ff72",
-	"enumMember":"#8bffa6",
+	"enum":"#dae7aa",
+	"enumMember":"#dae7aa",
 
 
 
