@@ -76,10 +76,10 @@
 	},
 	"semanticTokenColors": {
     "class": "#c891eb",
-	"method": "#8caff9",
-    "field": "#efb0b0",
+	"method": "#73a0ff",
+    "field": "#dea3a3",
 	"variable": "#efb0b0",
-	"parameter":"#efb0b0",
+	"parameter":"#a3c0ff",
 	"event": "#d1c868",
 	"delegate":"#d1c868",
 	"property":"#65e3c7",
@@ -90,7 +90,10 @@
 	"operatorOverloaded": "#d2d2d2",
 	"operator": "#d2d2d2",
 	"number": "#ff9162",
-	"namespace": "#bbfff8"
+	"namespace": "#bbfff8",
+	"enum":"#48ff72",
+	"enumMember":"#8bffa6",
+
 
 
   },
@@ -812,53 +815,6 @@
 			}
 		},
 
-
-		
-
-
-		
-
-
-			
-
-
-
-
-
-
-		
-
-
-
-
-
-
-		
-
-
-
-		
-
-
-
-
-
-		
-
-
-		
-		
-
-
-		//
-		//
-
-
-		
-
-
-
-		
 		
 		// {
         //  "scope": "entity.name.function",
